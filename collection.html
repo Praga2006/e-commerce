@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Collections</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--CDN Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav id="navbar">
+        <h1>Textile</h1>
+        <div id="links">
+            <p id="link1"><a href="index.html">Home</a></p>
+            <p id="link1"><a href="collection.html">Collections</a></p>
+            <p id="link1"><a href="contact.html">Contact Us</a></p>
+        </div>
+        <div id="toggle" onclick="showside()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Cross Navbar-->
+    <div id="cross-navbar">
+        <p style="text-align: right;margin: 5px;" onclick="closeside()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div id="cross-links">
+            <p id="cross-link1"><a href="index.html">Home</a></p>
+            <p id="cross-link1"><a href="collection.html">Collections</a></p>
+            <p id="cross-link1"><a href="contact.html">Contact Us</a></p>
+
+        </div>        
+    </div>
+    <!--Collections-->
+    <div id="collection">
+        <div id="search">
+            <input type="text" id="write" onkeyup="check(event)" onkeydown="reappear(event)" placeholder="Search Here">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div id="items">
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?18" alt="">
+                <p>Item 1</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?17" alt="">
+                <p>Item 2</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?16" alt="">
+                <p>Item 3</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?15" alt="">
+                <p>Item 4</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?14" alt="">
+                <p>Item 5</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?13" alt="">
+                <p>Item 6</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?12" alt="">
+                <p>Item 7</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?11" alt="">
+                <p>Item 8</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?10" alt="">
+                <p>Item 9</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?9" alt="">
+                <p>Item 10</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?8" alt="">
+                <p>Item 11</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?7" alt="">
+                <p>Item 12</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?6" alt="">
+                <p>Item 13</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?5" alt="">
+                <p>Item 14</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?4" alt="">
+                <p>Item 15</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?3" alt="">
+                <p>Item 16</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?2" alt="">
+                <p>Item 17</p>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/200x200/?fashion?1" alt="">
+                <p>Item 18</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
